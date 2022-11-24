@@ -5,7 +5,7 @@ import re
 # init flask app
 app = Flask(__name__)
 app.secret_key = 'a'
-conn= ibm_db.connect("DATABASE=bludb;HOSTNAME=2f3279a5-73d1-4859-88f0-a6c3e6b4b907.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud;PORT=30756;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=nkk12877;PWD=UUGFBq21gm6EiMIz",'','')
+conn= ibm_db.connect("DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=JJL31793;PWD=UUGFBq21gm6EiMIz",'','')
   
 # Init news api 
 newsapi = NewsApiClient(api_key='70fdb9ba81ba40b6bda148e672898bd9')
